@@ -1,0 +1,1 @@
+if(document.getElementById("eChatWindow")){const e=document.getElementById("eChatWindow");Object.assign(e.style,{display:"block"==getComputedStyle(e).getPropertyValue("display")?"none":"block"})}else{let e=document.createElement("script");e.src="https://cdn.jsdelivr.net/gh/heliodex/echatpopup/m.js",document.body.appendChild(e)}

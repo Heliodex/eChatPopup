@@ -15,3 +15,7 @@ jobs:
           node-version: 18
       - run: npm i -g terser
       - run: terser ./main.js --compress --mangle --output ./m.js
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Minify Javascript"
+          file_pattern: m.js

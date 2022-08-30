@@ -53,7 +53,7 @@ Window.appendChild(iframe)
 document.body.appendChild(Window)
 
 // Close the window when the close button is clicked
-HeaderCloseButton.onclick = function () {
+HeaderCloseButton.onmousedown = function () {
 	Object.assign(Window.style, {
 		display: "none",
 	})
